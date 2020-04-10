@@ -7,7 +7,6 @@ script:
   - cd ${TRAVIS_BUILD_DIR}
   - ls
   - cmake .
-  - cat Makefile
   - make
   - ls
   - ./base
