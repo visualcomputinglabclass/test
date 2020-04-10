@@ -17,7 +17,8 @@
 #include"renderer/renderer.hpp"
 #include"renderer/simple.hpp"
 
-
+#define CATCH_CONFIG_MAIN
+#include"catch.hpp"
 
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 #include"../image/stb_image_write.h"
