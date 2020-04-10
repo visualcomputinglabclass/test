@@ -4,4 +4,6 @@ compiler:
   - clang++
 
 script:
+  - cd ${TRAVIS_BUILD_DIR}
+  - ls
   - make -f ./cmake-build-debug/Makefile
