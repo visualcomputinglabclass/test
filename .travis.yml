@@ -1,6 +1,6 @@
 language: cpp
 dist: bionic
-compiler: clang++
+compiler: clang
 
 script:
   - cd ${TRAVIS_BUILD_DIR}
