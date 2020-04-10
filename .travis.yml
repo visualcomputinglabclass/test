@@ -1,6 +1,6 @@
 language: cpp
 
 script:
-  cmake .
-  ls
-  make
+  - cmake .
+  - ls
+  - make
