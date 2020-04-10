@@ -1,4 +1,4 @@
-cmake_minimum_required( VERSION 3.14 )
+cmake_minimum_required( VERSION 3.12 )
 
 if( WIN32 )
     add_definitions( /Dnot=! )
