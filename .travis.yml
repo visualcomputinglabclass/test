@@ -37,8 +37,6 @@ install:
 before_script:
   - export CXX=${COMPILER}
   - cd ${TRAVIS_BUILD_DIR}
-  # Regenerate single header file, so it is tested in the examples...
-  - python scripts/generateSingleHeader.py
 
   - |
     if [[ ${CPP17} -eq 1 ]]; then
