@@ -1,2 +1,2 @@
 main: src/main.cpp
-	clang++ -std=c++17 src/main.cpp -o base
+	clang++ -std=gnu++17 src/main.cpp -o base
