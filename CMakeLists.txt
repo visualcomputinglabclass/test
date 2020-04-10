@@ -10,5 +10,6 @@ set( CMAKE_CXX_STANDARD 17 )
 # base
 #
 project( base )
-add_executable( ${PROJECT_NAME} src/main.cpp )
+add_compile_options( -std=c++17 )
+add_executable( ${PROJECT_NAME}  src/main.cpp )
 target_link_libraries( ${PROJECT_NAME} )
