@@ -11,6 +11,6 @@ script:
   - cd ${TRAVIS_BUILD_DIR}
   - ls
   - cmake .
-  - make CXXFLAGS="${CXXFLAGS}" CXX="${CXX}"
+  - make
   - ls
   - ./base
