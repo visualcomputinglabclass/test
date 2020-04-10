@@ -1,6 +1,8 @@
 language: cpp
+dist: bionic
+compiler: clang++
 
 script:
   - cd ${TRAVIS_BUILD_DIR}
-  - cmake .
-  - cmake --build .
+  - clang++ src/report001/main.cpp -std=c++17 -o main
+  - ./main
