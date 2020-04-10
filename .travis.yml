@@ -6,6 +6,6 @@ compiler:
 script:
   - cd ${TRAVIS_BUILD_DIR}
   - ls
-  - cmake .
+  - cmake ./build
   - ls
-  - make -f ./cmake-build-debug/Makefile
+  - make -f ./build/Makefile
