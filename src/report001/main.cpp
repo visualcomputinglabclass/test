@@ -35,7 +35,7 @@ void save_png( const size_t width, const size_t height, const std::vector< float
     stbi_write_png( filename.c_str(), int( width ), int( height ), 3, pixels.data(), 0 );
 }
 
-
+/*
 int main( int argc, char ** argv )
 {
     std::vector< sphere > spheres = { sphere( 1e5, vec3( 0.0, - 1e5 - 1.0, 0 ), material::DIFFUSE, { 0.8, 0.8, 0.8 } ), //床
@@ -58,3 +58,4 @@ int main( int argc, char ** argv )
     save_png( image_width, image_height, pixel, "image.png" );
 
 }
+*/
