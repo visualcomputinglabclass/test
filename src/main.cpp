@@ -1,5 +1,6 @@
 #include<iostream>
 #include<memory>
+#include<cstddef>
 
 #define CATCH_CONFIG_MAIN
 #include"catch.hpp"
