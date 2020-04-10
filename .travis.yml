@@ -20,8 +20,8 @@ matrix:
       addons:
         apt:
           sources: *all_sources
-          packages: ['clang-6.0', 'libstdc++-8-dev']
-      env: COMPILER='clang++-6.0' CPP17=1
+          packages: ['clang-7.0', 'libstdc++-8-dev']
+      env: COMPILER='clang++-7.0' CPP17=1
 
 install:
   - DEPS_DIR="${TRAVIS_BUILD_DIR}/deps"
