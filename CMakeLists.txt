@@ -9,8 +9,8 @@ set( CMAKE_CXX_STANDARD_REQUIRED ON )
 set( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17" )
 
 #
-# base
+# report001
 #
-project( base )
-add_executable( ${PROJECT_NAME}  src/main.cpp )
+project( report001 )
+add_executable( ${PROJECT_NAME}  src/${PROJECT_NAME}/main.cpp )
 target_link_libraries( ${PROJECT_NAME} )
