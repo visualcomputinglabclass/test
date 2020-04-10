@@ -4,4 +4,4 @@ compiler:
   - clang++
 
 script:
-  - make -f cmake-build-debug/Makefile
+  - make -f ./cmake-build-debug/Makefile
